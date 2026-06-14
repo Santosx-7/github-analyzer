@@ -1,11 +1,11 @@
 import Historico from './Historico'
-import Main from './Main'
+import Analyzer from './Analyzer'
 
 function App(){
   return(
     <main id="app">
       <Historico />
-      <Main />
+      <Analyzer />
     </main>
   )
 }
