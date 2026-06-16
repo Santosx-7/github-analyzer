@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-export default function Analyzer() {
+export default function Analyzer({ onAnalisar }) {
   const [url, setUrl] = useState("");
   function handleClick(){
-    console.log(url)
+    onAnalisar(url)
   }
   return (
     <main>
