@@ -4,7 +4,7 @@ export default function Analyzer({ onAnalisar }) {
   const [url, setUrl] = useState("");
   function handleClick(){
     onAnalisar(url)
-  }
+  }     
   return (
     <main>
       <div>
